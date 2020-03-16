@@ -27,6 +27,7 @@ public class MovieList {
 	 * @param movieName the name of the new movie
 	 * @throws MovieListException if the movie is already in the list
 	 */
+	/** hello im trying to change some things rgards ACHC30 */
 	public void addMovie(String movieName) throws MovieListException {
 		if (movieList.containsKey(movieName))
 			throw new MovieListException("Duplicate movie: " + movieName);
