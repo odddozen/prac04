@@ -7,6 +7,7 @@ public class MovieListException extends Exception {
 
 	public MovieListException() {
 		super();
+		int x = 1;
 	}
 
 	public MovieListException(String message) {
