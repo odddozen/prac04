@@ -12,7 +12,7 @@ These exercises are [available in a PDF inside this repository](Week4-Git.pdf).
 ## Exercise 2: A list of movie ratings
 
 In this exercise you will use Test-Driven Development to produce a class called `MovieList` for maintaining a list of
-movie ratings. To get you started, the file `Movie-ListTest.java` contains some JUnit tests, which are commented out.
+movie ratings. To get you started, the file `MovieListTest.java` contains some JUnit tests, which are commented out.
 You should *uncomment these tests one at a time*, and follow the 'red-green-refactor' process to get each test to pass. (Hint: Select a block of code, then use Ctrl+/ to comment/uncomment that block).
 
 Overall, the tests are intended to drive you towards developing a class which maintains a list of movie titles, each of
