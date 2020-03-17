@@ -26,19 +26,19 @@ public class MovieListTest {
 
 	/* Test 1: Constructing a MovieList object
 	 */
-//	@BeforeEach @Test
-//	public void setUpMovieList() {
-//		movies = new MovieList();
-//	}
+	@BeforeEach @Test
+	public void setUpMovieList() {
+		movies = new MovieList();
+	}
 
 	/* Test 2: Adding a new movie to the list
 	 */
-//	@Test
-//	public void addAMovie() throws MovieListException {
-//		movies.addMovie("Star Wars");
-//		assertEquals("No rating", movies.getRating("Star Wars"),
-//				"Adding movie failed");
-//	}
+	@Test
+	public void addAMovie() throws MovieListException {
+		movies.addMovie("Star Wars");
+		assertEquals("No rating", movies.getRating("Star Wars"),
+				"Adding movie failed");
+	}
 
 	/* Test 3: Associating a rating with a movie
 	 */
